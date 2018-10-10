@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: b8068bd1c5b7c25408810db0803d6475
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: DINbek Black
+  fontNames:
+  - DINbek Black
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: a628747d7022ee64ea2388826b2fbd5b, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 881b2778b2f6ed74c9e9e874aa2870eb
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: DINbek
+  fontNames:
+  - DINbek
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 0e6c6925d90cc8447ad5ee4a613fe818, type: 3}
+  - {fileID: 12800000, guid: 2b55d8bc5ede3354f8597d1d55ee339e, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
