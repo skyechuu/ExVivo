@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
+using DG.Tweening;
 
 public class PortalController : MonoBehaviour {
 
@@ -7,7 +8,7 @@ public class PortalController : MonoBehaviour {
     public Transform worldSyncA;
     public Transform worldSyncB;
     public Camera portalCamera;
-
+    public CanvasGroup portalFlash;
     public PortalRender portalRender;
 
 
@@ -19,8 +20,9 @@ public class PortalController : MonoBehaviour {
     {
         if (Input.GetKeyDown(KeyCode.K))
         {
-            Teleport();
+            //Teleport();
             //SwapWorldSyncPoints();
+            RenderPortalFlash();
         }
         if (Input.GetKeyDown(KeyCode.E))
         {
@@ -36,12 +38,11 @@ public class PortalController : MonoBehaviour {
             {
                 teleporting = true;
                 peaking = false;
+                RenderPortalFlash();
                 portalRender.OpenPortal(() =>
                 {
                     Teleport(); 
                     print("Portal opened.");
-                    //render = false;
-                    //SwapWorldSyncPoints();
                     teleporting = false;
                 });
             }
@@ -108,5 +109,13 @@ public class PortalController : MonoBehaviour {
         worldSyncA = worldSyncB;
         worldSyncB = temp;
         render = true;
+    }
+
+    void RenderPortalFlash()
+    {
+        portalFlash.DOFade(1.5f, 0.5f).OnComplete(()=>
+        {
+            portalFlash.DOFade(0, 1f);
+        });
     }
 }
