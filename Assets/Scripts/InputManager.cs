@@ -1,13 +1,22 @@
 ﻿using UnityEngine;
 
-public class InputManager : MonoBehaviour {
+public class InputManager : MonoBehaviour
+{
 
-
+    [SerializeField] Transform player;
     [Header("Settings")]
     [SerializeField] static float cameraXSensitivity = 350f;
     [SerializeField] static float cameraYSensitivity = 350f;
 
-    public static float MouseX {
+    private static vp_FPInput inputController;
+
+    void Awake()
+    {
+        inputController = player.GetComponent<vp_FPInput>();
+    }
+
+    public static float MouseX
+    {
         get {
             return Input.GetAxis("Mouse X") * cameraXSensitivity;
         }
@@ -31,7 +40,19 @@ public class InputManager : MonoBehaviour {
         }
     }
 
-    void Update () {
-		
-	}
+    void Update()
+    {
+    }
+
+    public static void ActivateCursorMode()
+    {
+        inputController.MouseCursorForced = true;
+        inputController.MouseCursorBlocksMouseLook = true;
+    }
+
+    public static void DeactivateCursorMode()
+    {
+        inputController.MouseCursorForced = false;
+        inputController.MouseCursorBlocksMouseLook = false;
+    }
 }
