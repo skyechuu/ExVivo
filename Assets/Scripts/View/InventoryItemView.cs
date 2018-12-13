@@ -5,13 +5,20 @@ using UnityEngine.UI;
 public class InventoryItemView : MonoBehaviour {
 
     [SerializeField] Text textComponent;
-
+    [SerializeField] Image foregroundImage;
+ 
     
     private string Text;
     private event Action onClick;
 
+    void OnEnable()
+    {
+        SetForegroundFillAmount(1);
+    }
+
     public void OnClickItem()
     {
+        PlayerInventory.instance.SetLastClickedItem(this);
         onClick();
     }
 
@@ -23,5 +30,10 @@ public class InventoryItemView : MonoBehaviour {
     public void SetText(string text)
     {
         textComponent.text = text;
+    }
+
+    public void SetForegroundFillAmount(float ratio)
+    {
+        foregroundImage.fillAmount = ratio;
     }
 }

@@ -5,14 +5,16 @@ using UnityEngine;
 public class PlayerInventory : MonoBehaviour {
 
     public static PlayerInventory instance;
+    
+    public List<Item> items = new List<Item>();
 
+    [Header("References")]
     [SerializeField] KeyCode inventoryKey;
     [SerializeField] RectTransform invetoryPanel;
     [SerializeField] RecordController recordController;
 
-    public List<Item> items = new List<Item>();
-
     private bool isOpen = false;
+    private InventoryItemView lastClickedItem;
 
     void Awake()
     {
@@ -50,13 +52,21 @@ public class PlayerInventory : MonoBehaviour {
         InputManager.DeactivateCursorMode();
         isOpen = false;
         invetoryPanel.gameObject.SetActive(false);
+        recordController.StopPlaying();
     }
 
     public void ListenRecord(AudioClip clip)
     {
-        recordController.PlayRecording(clip);
+        recordController.PlayRecording(clip, lastClickedItem);
     }
 
+    public void SetLastClickedItem(InventoryItemView item)
+    {
+        lastClickedItem = item;
+    }
 
-    
+    public InventoryItemView GetLastClickedItem()
+    {
+        return lastClickedItem;
+    }
 }
