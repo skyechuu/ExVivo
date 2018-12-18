@@ -18,13 +18,15 @@ public class PortalController : MonoBehaviour {
 
     void Update()
     {
+        // Debug purposes
         if (Input.GetKeyDown(KeyCode.K))
         {
             //Teleport();
             //SwapWorldSyncPoints();
-            RenderPortalFlash();
+            //RenderPortalFlash();
         }
-        if (Input.GetKeyDown(KeyCode.E))
+
+        if (Input.GetMouseButtonDown(1))
         {
             if (!peaking)
             {
@@ -48,7 +50,7 @@ public class PortalController : MonoBehaviour {
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.Q))
+        if (Input.GetMouseButtonDown(0))
         {
             if (peaking)
             {

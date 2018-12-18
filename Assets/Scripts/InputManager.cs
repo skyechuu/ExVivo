@@ -15,6 +15,13 @@ public class InputManager : MonoBehaviour
         inputController = player.GetComponent<vp_FPInput>();
     }
 
+    public static KeyCode InteractionKey
+    {
+        get {
+            return KeyCode.E;
+        }
+    }
+
     public static float MouseX
     {
         get {

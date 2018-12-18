@@ -69,4 +69,9 @@ public class PlayerInventory : MonoBehaviour {
     {
         return lastClickedItem;
     }
+
+    public void AddItem(Item item)
+    {
+        items.Add(item);
+    }
 }
