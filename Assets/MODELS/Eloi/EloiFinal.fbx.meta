@@ -1,0 +1,194 @@
+fileFormatVersion: 2
+guid: 031755cd63d2f3643b661a9f1fd9579b
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Apron_Low
+    100002: Boots
+    100004: ChroneGun
+    100006: ChronoStone
+    100008: ChronoStone.Inner
+    100010: Eloi_Body_Low
+    100012: //RootNode
+    100014: Eye_1_Inner
+    100016: Eye_2_R.001
+    100018: Hairs
+    100020: Pants_Low
+    100022: Shirt_Low
+    400000: Apron_Low
+    400002: Boots
+    400004: ChroneGun
+    400006: ChronoStone
+    400008: ChronoStone.Inner
+    400010: Eloi_Body_Low
+    400012: //RootNode
+    400014: Eye_1_Inner
+    400016: Eye_2_R.001
+    400018: Hairs
+    400020: Pants_Low
+    400022: Shirt_Low
+    2100000: EyeReflect.001
+    2100002: material0.001
+    2100004: Boots.001
+    2100006: EloiBody.001
+    2100008: Apron
+    2100010: Shirt
+    2100012: Pants
+    2100014: "ChroneStone.\u0130nner"
+    2100016: ChroneStone
+    2100018: ChroneGun
+    2100020: Hair.002
+    2300000: Apron_Low
+    2300002: Boots
+    2300004: ChroneGun
+    2300006: ChronoStone
+    2300008: ChronoStone.Inner
+    2300010: Eloi_Body_Low
+    2300012: Eye_1_Inner
+    2300014: Eye_2_R.001
+    2300016: Hairs
+    2300018: Pants_Low
+    2300020: Shirt_Low
+    3300000: Apron_Low
+    3300002: Boots
+    3300004: ChroneGun
+    3300006: ChronoStone
+    3300008: ChronoStone.Inner
+    3300010: Eloi_Body_Low
+    3300012: Eye_1_Inner
+    3300014: Eye_2_R.001
+    3300016: Hairs
+    3300018: Pants_Low
+    3300020: Shirt_Low
+    4300000: Eye_1_Inner
+    4300002: Eye_2_R.001
+    4300004: Boots
+    4300006: Eloi_Body_Low
+    4300008: Apron_Low
+    4300010: Shirt_Low
+    4300012: Pants_Low
+    4300014: ChronoStone.Inner
+    4300016: ChronoStone
+    4300018: ChroneGun
+    4300020: Hairs
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Boots.001
+    second: {fileID: 2100000, guid: 347827c6a4f28634d8eb52a45e183cfa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ChroneGun
+    second: {fileID: 2100000, guid: c829d392c52e981419fdc63009fdea4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ChroneStone
+    second: {fileID: 2100000, guid: e4b7f85ee92aa644abd90d2c025133f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "ChroneStone.\u0130nner"
+    second: {fileID: 2100000, guid: 58201aeebaf28a848b9baf1790af9888, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EloiBody.001
+    second: {fileID: 2100000, guid: 0fb22611ec7a575499395bfa3fbfcfee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EyeReflect.001
+    second: {fileID: 2100000, guid: 978913ecc6e66ba4ca2a429f49038e70, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hair.002
+    second: {fileID: 2100000, guid: 0ec08a219dd149847ac7c8efb2961e34, type: 2}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: a4f456a1878be5f4482a6982a7fdf580,
+    type: 3}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
