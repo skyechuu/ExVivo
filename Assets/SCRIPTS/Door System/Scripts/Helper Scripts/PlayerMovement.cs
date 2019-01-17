@@ -2,7 +2,7 @@
 using System.Collections;
 
 [RequireComponent(typeof(Rigidbody))]
-public class PlayerMovement2: MonoBehaviour {
+public class PlayerMovement : MonoBehaviour {
 	
 	public Transform LookTransform;
 	public Vector3 Gravity = Vector3.down * 9.81f;
